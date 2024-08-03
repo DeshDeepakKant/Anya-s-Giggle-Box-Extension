@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Anya Facts",
+    "version": "1.0",
+    "description": "Fetches dad jokes",
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.jpeg"
+    },
+    "icons": {
+      "48": "icon.jpeg"
+    }
+  }
+  

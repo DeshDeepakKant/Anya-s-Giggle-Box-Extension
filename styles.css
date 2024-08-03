@@ -1,0 +1,52 @@
+/* General styles for the popup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Dark gray for text */
+    background-color: #d0d0d0; /* Medium gray background for overall popup */
+  }
+  
+  /* Popup container with rounded corners */
+  #popup-container {
+    width: 300px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 12px; /* Rounded corners for the popup */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for more depth */
+    padding: 20px; /* Padding inside the container */
+  }
+  
+  /* Style for the fact display container */
+  #fact-box {
+    background-color: #e0e0e0; /* Light gray background for fact box */
+    border-radius: 8px; /* Rounded corners for the fact box */
+    padding: 15px; /* Padding inside the fact box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Darker shadow for depth */
+    margin-top: 10px; /* Space between button and fact box */
+    text-align: center;
+  }
+  
+  /* Style for the button */
+  button {
+    background-color: #4a4a4a; /* Darker gray button background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 8px; /* Rounded corners for button */
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+  
+  button:hover {
+    background-color: #333333; /* Even darker gray on hover */
+  }
+  
+  /* Style for the fact text */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    color: #4a4a4a; /* Darker gray for text */
+  }
+  
